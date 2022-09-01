@@ -4,6 +4,8 @@
 
 `npm install nest-wechatpay-node-v3`
 
+`npm install wechatpay-node-v3`
+
 ## 注册
 
 ```js
@@ -31,10 +33,11 @@ export class AppModule {}
 ## 交互
 
 `import WxPay from 'wechatpay-node-v3';`
+
 `import { WECHAT_PAY_MANAGER } from 'nest-wechatpay-node-v3';`
 
 `constructor(@Inject(WECHAT_PAY_MANAGER) private wxPay: WxPay) {}`
 
 ## 使用
 
-`const res = await this.wxPay.getAccessToken();`
+`const res = await this.wxPay.batches_transfer();`

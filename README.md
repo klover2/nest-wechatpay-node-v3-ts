@@ -1,4 +1,4 @@
-# nest-qbit
+# nest-wechatpay-node-v3
 
 ## 安装
 

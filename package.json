@@ -1,7 +1,7 @@
 {
   "name": "nest-wechatpay-node-v3",
-  "version": "1.0.0",
-  "description": "qbit api",
+  "version": "1.0.1",
+  "description": "nest支持wechatpay-node-v3的使用",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -15,7 +15,10 @@
     "url": "git+https://github.com/klover2/nest-wechatpay-node-v3-ts.git"
   },
   "keywords": [
-    "qbit"
+    "node",
+    "wechat",
+    "微信支付",
+    "微信提现"
   ],
   "author": "klover",
   "license": "ISC",

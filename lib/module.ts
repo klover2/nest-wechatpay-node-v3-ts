@@ -7,10 +7,11 @@ import { createWeChatPayManager } from './providers';
 export class WeChatPayModule {
   static registerAsync(options: WeChatPayModuleAsyncOptions): DynamicModule {
     return {
+      global: !!options.global,
       module: WeChatPayModule,
       imports: options.imports,
-      providers: [...this.createAsyncProviders(options), ...(options.extraProviders || [])],
-      exports: [options?.name || WECHAT_PAY_MANAGER],
+      providers: [...this.createAsyncProviders(options), ...(options.extraProviders ?? [])],
+      exports: [options?.name ?? WECHAT_PAY_MANAGER],
     };
   }
 

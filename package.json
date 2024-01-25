@@ -1,6 +1,6 @@
 {
   "name": "nest-wechatpay-node-v3",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "nest支持wechatpay-node-v3的使用",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
